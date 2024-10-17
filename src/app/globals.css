@@ -2,26 +2,516 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+.header{
+  background-color: brown;
+  color:deeppink;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.header-button{
+  display:flex;
+  gap:10px;
+  padding-right: 10px;
+  justify-content: space-between;
+
+  align-items: center;
+
 }
+
+.logo img{
+  width: 100px;
+  height: 100px;
+}
+
+body{
+  background-color: red;
+
+}
+
+* app/product/Product.module.css */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  
+
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+}
+
+.image {
+  border-radius: 8px;
+}
+
+.description {
+  margin: 20px 0;
+  font-size: 1.1rem;
+  color: #666;
+}
+h1{
+  text-align: center;
+  font-size: 20px;
+  background-color:lightcoral;
+  color:brown
+}
+
+
+.priceContainer {
+  margin: 20px 0;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #e60000; /* Use a prominent color for the price */
+  font-weight: bold;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #e60000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #cc0000;
+}
+/* General Styles */
+body {
+  font-family: Arial, sans-serif; /* Set a default font for the entire site */
+  margin: 0; /* Remove default margin */
+  padding: 50px; /* Remove default padding */
+  background-color: #f5f5f5; /* Light background color for the body */
+  
+}
+
+/* Container Styles */
+.container {
+  max-width: 1200px; /* Maximum width for the main content area */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Padding around the container */
+}
+
+/* Introduction Section */
+.intro {
+  margin-bottom: 20px; /* Space below the introduction section */
+  font-size: 15px; /* Font size for the intro text */
+  color: #333; /* Darker text color for contrast */
+}
+
+/* Image Presentation Styles */
+.aipic {
+  display: inline-block; /* Allows for inline block layout */
+  margin: 10px; /* Margin around each image */
+  border: 1px solid #ddd; /* Optional: Light border around images */
+  border-radius: 5px; /* Rounded corners for images */
+  overflow: hidden; /* Clip any overflowing content */
+  background-color: white; /* White background for better contrast */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  
+
+}
+
+/* Image Styles */
+.aipic img {
+  display: block; /* Ensures images don't have bottom whitespace */
+  max-width: 100%; /* Responsive images */
+  
+
+}
+
+/* Optional: Add hover effects to images */
+.aipic:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+/* Additional styles as needed */
+
+
+.footer-parent {
+  background-color:palevioletred;
+  padding: 20px; /* Padding around the footer */
+  text-align: center; /* Center text */
+  border-top: 1px solid #eaeaea; /* Subtle top border */
+}
+
+.footer-child {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.footer-child li {
+  margin: 10px 0; /* Space between list items */
+  font-size: 14px; /* Font size */
+  color:darkgreen
+}
+
+.footer-child .facebook {
+  display: flex; /* Flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+}
+
+.footer-child .facebook a {
+  margin-right: 8px; /* Space between link and icon */
+  color: blue; /* Facebook link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-child .facebook a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+/* General Styles */
+body {
+  font-family: Arial, sans-serif; /* Set a default font */
+  background-color:red;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Product Container */
+.perfume {
+  max-width: 800px; /* Max width for the product container */
+  margin: 20px auto; /* Center the container with margin */
+  padding: 20px; /* Add padding inside the container */
+background-color:papayawhip; 
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Headings */
+h1, h2 {
+  color: rgb(174, 90, 90); /* Darker color for headings */
+  
+}
+
+/* Images */
+.perfume img {
+  width: 100%; /* Make images responsive */
+  border-radius: 8px; /* Rounded corners for images */
+  background-color: #6a0937;
+}
+
+/* Text */
+.perfume p {
+  font-size: 16px; /* Font size for paragraphs */
+  line-height: 1.5; /* Line height for better readability */
+  color: red;
+  background-color: lightpink;
+}
+
+/* Price */
+.perfume span {
+  font-size: 20px; /* Larger font for prices */
+  color: lightgreen;
+  font-weight: bold; /* Bold font for emphasis */
+  background: lightsalmon;
+}
+/* Buttons */
+.perfume button {
+  padding: 10px 20px; /* Padding inside buttons */
+  background-color: brown; /* Button background color */
+  color: lightpink; /* Text color */
+  border: 2px solid brown; /* Border color matching background */
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions for background color and scale */
+  margin-top: 10px; /* Space above buttons */
+  display: inline-block; /* Ensure it behaves like a block for margins */
+}
+
+/* Button Hover Effect */
+.perfume button:hover {
+  background-color: lightpink; /* Change background on hover */
+  color: brown; /* Change text color on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+img{
+  margin-right:200px;
+  border-radius:50%;
+  border:1px solid red;
+  background-color: #6a0937;
+  height:300px;
+  width:300px;
+
+}
+
+
+
+
+.contaner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.intro {
+  width: 90%;
+  font-size: 15px;
+}
+/* components/ProfilePic.module.css */
+.img {
+  border-radius: 50%;
+  border: 2px solid red;
+  height: 20px;
+  width: 20px;
+  object-fit: cover; /* Ensures the image covers the area */
+}
+
+.profilePic {
+  margin-right: 100px;
+  margin-top: 100px;
+  
+}
+.intro{
+  font-size:30px;
+  color:brown;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.body{
+  font-family:Arial,sans-serif;
+  background-color:red;
+  margin:0 15 px;
+  padding:20px;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif; /* Default font */
+  background-color: #f2f2f2; /* Light background color */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Contact Form Styles */
+.contact {
+  max-width: 500px; /* Max width for the contact form */
+  margin: 15px auto; /* Center the form with vertical margin */
+  background-color: lightgoldenrodyellow; /* Background color */
+  padding: 20px; /* Padding inside the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading Styles */
+h2 {
+  text-align: center; /* Center the heading */
+  font-size: 20px; /* Font size */
+  background-color: lightcoral; /* Background color for the heading */
+  color: brown; /* Text color for the heading */
+  padding: 10px; /* Padding inside the heading */
+  border-radius: 8px; /* Rounded corners for the heading background */
+}
+
+/* Input Styles */
+.input-box {
+  margin: 10px 0; /* Space between input fields */
+}
+
+.input-box label {
+  display: block; /* Block display for labels */
+  margin-bottom: 5px; /* Space below labels */
+  color: #333; /* Label color */
+}
+
+.field {
+  width: 100%; /* Full width inputs */
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 4px; /* Rounded corners for inputs */
+}
+
+/* Textarea Styles */
+textarea.field {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Button Styles */
+button {
+  background-color: #0070f3; /* Button background color */
+  color: #fff; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding inside the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  width: 100%; /* Full width button */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #005bb5; /* Darker color on hover */
+}
+.portfolio{
+  font-size: 30px;
+  color:brown;
+  margin-left: 150px;
+  margin-top:100px;
+  text-align:center;
+}
+
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: lightsalmon;
+  color: brown;
+}
+.start-button {
+  background-color: #4CAF50; /* Green background */
+  color: white;             /* White text */
+  padding: 10px 20px;      /* Padding for spacing */
+  text-align: center;       /* Center text */
+  text-decoration: none;    /* Remove underline */
+  display: inline-block;    /* Make it inline */
+  font-size: 16px;         /* Font size */
+  margin: 4px 2px;        /* Margin for spacing */
+  cursor: pointer;         /* Pointer cursor on hover */
+  border-radius: 5px;     /* Rounded corners */
+  transition: background-color 0.3s; /* Transition effect */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.start-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.parentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+
+}
+
+.childContainer {
+  background:papayawhip;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Adjust the width as necessary */
+  text-align: center;
+  position: relative;
+  
+  transition: transform 0.2s;
+}
+
+.childContainer:hover {
+  transform: scale(1.05);
+}
+
+.imageContainer {
+  padding: 20px;
+}
+
+
+
+.title {
+  font-size: 15px;
+  margin: 5px ;
+}
+
+.description {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #666;
+}
+
+.readMore {
+  padding: 10px 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px 0;
+bottom: 0;
+left: 0;
+  transition: background-color 2s;
+}
+
+.readMore:hover {
+  background-color: #6a0937;
+}
+
+
+/* Animation class for bounce effect */
+.bounce-right {
+  animation: bounce 0.5s forwards;
+}
+
+@keyframes bounce {
+  0% {
+      transform: translateX(-30px);
+      opacity: 0;
+  }
+  50% {
+      transform: translateX(15px);
+      opacity: 1;
+  }
+  100% {
+      transform: translateX(0);
   }
 }
+
+
+@media (max-width: 600px) {
+  .title {
+    background-color: lightpink;
+    font-size: 1.25rem;
+  }
+
+  .childContainer {
+    background-color:crimson;
+    margin: 10px;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.85rem;
+  }
+
+  .readMore {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
