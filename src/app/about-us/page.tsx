@@ -17,7 +17,7 @@ export default function About() {
         <section className="contact">
           <div className="aipic">
             <h1>Product 1</h1>
-            <p>Step 1: Take A Warm Bath & Dry Your Skin. ...</p>
+            <p>Step 1 Take A Warm Bath Dry Your Skin. ...</p>
             <Image
               src="/images 7.png"
               alt="Description of image"
@@ -27,7 +27,7 @@ export default function About() {
           </div>
           <div className="aipic">
             <h1>Product 2</h1>
-            <p>Step 2: Moisturise. ...</p>
+            <p>Step 2 Moisturise. ...</p>
             <Image
               src="/images 8.png" 
               alt="Description of second image"
@@ -38,7 +38,7 @@ export default function About() {
             <div>
               <div className="aipic">
                 <h1>product 3</h1>
-                <p>Step 3: Apply Perfume Focusing On Pulse Points. ..</p>
+                <p>Step 3 Apply Perfume Focusing On Pulse Points. ..</p>
                 <Image
                   src="/image 13.png" 
                   alt="Description of first image"
@@ -48,7 +48,7 @@ export default function About() {
               </div>
               <div className="aipic">
                 <h1>product 4</h1>
-                <p>Step 4: Avoid Rubbing the Perfume on Your Body</p>
+                <p>Step 4 Avoid Rubbing the Perfume on Your Body</p>
                 <Image
                   src="/image 14.png" 
                   alt="Description of second image"
