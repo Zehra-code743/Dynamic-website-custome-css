@@ -11,13 +11,13 @@
   align-items: center;
 }
 
-.header-button{
+.header-buttons{
   display:flex;
-  gap:10px;
+  gap:20px;
   padding-right: 10px;
   justify-content: space-between;
-
   align-items: center;
+  
 
 }
 
@@ -73,7 +73,7 @@ h1{
 
 .price {
   font-size: 1.5rem;
-  color: #e60000; /* Use a prominent color for the price */
+  color: #e60000; 
   font-weight: bold;
 }
 
@@ -91,156 +91,155 @@ h1{
 .button:hover {
   background-color: #cc0000;
 }
-/* General Styles */
+
 body {
-  font-family: Arial, sans-serif; /* Set a default font for the entire site */
-  margin: 0; /* Remove default margin */
-  padding: 50px; /* Remove default padding */
-  background-color: #f5f5f5; /* Light background color for the body */
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  padding: 50px; 
+  background-color: #f5f5f5; 
   
 }
 
-/* Container Styles */
+
 .container {
-  max-width: 1200px; /* Maximum width for the main content area */
-  margin: 0 auto; /* Center the container */
-  padding: 20px; /* Padding around the container */
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 20px; 
 }
 
-/* Introduction Section */
+
 .intro {
-  margin-bottom: 20px; /* Space below the introduction section */
-  font-size: 15px; /* Font size for the intro text */
-  color: #333; /* Darker text color for contrast */
+  margin-bottom: 20px; 
+  font-size: 15px; 
+  color: #333; 
 }
 
-/* Image Presentation Styles */
+
 .aipic {
-  display: inline-block; /* Allows for inline block layout */
-  margin: 10px; /* Margin around each image */
-  border: 1px solid #ddd; /* Optional: Light border around images */
-  border-radius: 5px; /* Rounded corners for images */
-  overflow: hidden; /* Clip any overflowing content */
-  background-color: white; /* White background for better contrast */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: inline-block; 
+  margin: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  overflow: hidden; 
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   
 
 }
 
-/* Image Styles */
+
 .aipic img {
-  display: block; /* Ensures images don't have bottom whitespace */
-  max-width: 100%; /* Responsive images */
+  display: block; 
+  max-width: 100%;
   
 
 }
 
-/* Optional: Add hover effects to images */
+
 .aipic:hover {
-  transform: scale(1.05); /* Slight zoom effect on hover */
-  transition: transform 0.3s ease; /* Smooth transition */
+  transform: scale(1.05); 
+  transition: transform 0.3s ease; 
 }
-/* Additional styles as needed */
+
 
 
 .footer-parent {
+  width: 100%;
   background-color:palevioletred;
-  padding: 20px; /* Padding around the footer */
-  text-align: center; /* Center text */
-  border-top: 1px solid #eaeaea; /* Subtle top border */
+  padding: 20px; 
+  text-align: center; 
+  border-top: 1px solid #eaeaea; 
 }
 
 .footer-child {
-  list-style-type: none; /* Remove default list styling */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
 }
 
 .footer-child li {
-  margin: 10px 0; /* Space between list items */
-  font-size: 14px; /* Font size */
+  margin: 10px 0; 
+  font-size: 14px; 
   color:darkgreen
 }
 
 .footer-child .facebook {
-  display: flex; /* Flexbox for alignment */
-  align-items: center; /* Center items vertically */
-  justify-content: center; /* Center items horizontally */
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
 }
 
 .footer-child .facebook a {
-  margin-right: 8px; /* Space between link and icon */
-  color: blue; /* Facebook link color */
-  text-decoration: none; /* Remove underline */
+  margin-right: 8px; 
+  color: blue; 
+  text-decoration: none; 
 }
 
 .footer-child .facebook a:hover {
-  text-decoration: underline; /* Underline on hover */
+  text-decoration: underline; 
 }
-/* General Styles */
+
 body {
-  font-family: Arial, sans-serif; /* Set a default font */
+  font-family: Arial, sans-serif; 
   background-color:red;
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
+  margin: 0; 
+  padding: 0; 
 }
 
-/* Product Container */
+
 .perfume {
-  max-width: 800px; /* Max width for the product container */
-  margin: 20px auto; /* Center the container with margin */
-  padding: 20px; /* Add padding inside the container */
+  max-width: 800px; 
+  margin: 20px auto; 
+  padding: 20px; 
 background-color:papayawhip; 
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 8px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
-/* Headings */
 h1, h2 {
-  color: rgb(174, 90, 90); /* Darker color for headings */
+  color: rgb(174, 90, 90); 
   
 }
 
-/* Images */
+
 .perfume img {
-  width: 100%; /* Make images responsive */
-  border-radius: 8px; /* Rounded corners for images */
+  width: 100%; 
+  border-radius: 8px; 
   background-color: #6a0937;
 }
 
-/* Text */
+
 .perfume p {
-  font-size: 16px; /* Font size for paragraphs */
-  line-height: 1.5; /* Line height for better readability */
+  font-size: 16px; 
+  line-height: 1.5; 
   color: red;
   background-color: lightpink;
 }
 
-/* Price */
 .perfume span {
-  font-size: 20px; /* Larger font for prices */
+  font-size: 20px;
   color: lightgreen;
-  font-weight: bold; /* Bold font for emphasis */
+  font-weight: bold; 
   background: lightsalmon;
 }
-/* Buttons */
+
 .perfume button {
-  padding: 10px 20px; /* Padding inside buttons */
-  background-color: brown; /* Button background color */
-  color: lightpink; /* Text color */
-  border: 2px solid brown; /* Border color matching background */
-  border-radius: 5px; /* Rounded corners for buttons */
-  cursor: pointer; /* Change cursor to pointer */
-  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions for background color and scale */
-  margin-top: 10px; /* Space above buttons */
-  display: inline-block; /* Ensure it behaves like a block for margins */
+  padding: 10px 20px; 
+  background-color: brown; 
+  color: lightpink; 
+  border: 2px solid brown;
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, transform 0.3s; 
+  margin-top: 10px; 
+  display: inline-block; 
 }
 
-/* Button Hover Effect */
+
 .perfume button:hover {
-  background-color: lightpink; /* Change background on hover */
-  color: brown; /* Change text color on hover */
-  transform: scale(1.05); /* Slightly enlarge button on hover */
+  background-color: lightpink; 
+  color: brown; 
+  transform: scale(1.05); 
 }
 
 img{
@@ -268,13 +267,13 @@ img{
   width: 90%;
   font-size: 15px;
 }
-/* components/ProfilePic.module.css */
+
 .img {
   border-radius: 50%;
   border: 2px solid red;
   height: 20px;
   width: 20px;
-  object-fit: cover; /* Ensures the image covers the area */
+  object-fit: cover; 
 }
 
 .profilePic {
@@ -296,71 +295,69 @@ img{
   padding:20px;
 }
 
-/* General Styles */
+
 body {
-  font-family: Arial, sans-serif; /* Default font */
-  background-color: #f2f2f2; /* Light background color */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
+  font-family: Arial, sans-serif; 
+  background-color: #f2f2f2; 
+  margin: 0; 
+  padding: 0;
 }
 
-/* Contact Form Styles */
 .contact {
-  max-width: 500px; /* Max width for the contact form */
-  margin: 15px auto; /* Center the form with vertical margin */
-  background-color: lightgoldenrodyellow; /* Background color */
-  padding: 20px; /* Padding inside the form */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 500px; 
+  margin: 15px auto; 
+  background-color: lightgoldenrodyellow; 
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
-/* Heading Styles */
+
 h2 {
-  text-align: center; /* Center the heading */
-  font-size: 20px; /* Font size */
-  background-color: lightcoral; /* Background color for the heading */
-  color: brown; /* Text color for the heading */
-  padding: 10px; /* Padding inside the heading */
-  border-radius: 8px; /* Rounded corners for the heading background */
+  text-align: center; 
+  font-size: 20px; 
+  background-color: lightcoral; 
+  color: brown; 
+  padding: 10px; 
+  border-radius: 8px; 
 }
 
-/* Input Styles */
+
 .input-box {
-  margin: 10px 0; /* Space between input fields */
+  margin: 10px 0; 
 }
 
 .input-box label {
-  display: block; /* Block display for labels */
-  margin-bottom: 5px; /* Space below labels */
-  color: #333; /* Label color */
+  display: block; 
+  margin-bottom: 5px; 
+  color: #333; 
 }
 
 .field {
-  width: 100%; /* Full width inputs */
-  padding: 10px; /* Padding inside inputs */
-  border: 1px solid #ccc; /* Border style */
-  border-radius: 4px; /* Rounded corners for inputs */
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
 }
 
-/* Textarea Styles */
 textarea.field {
-  resize: vertical; /* Allow vertical resizing */
+  resize: vertical; 
 }
 
-/* Button Styles */
+
 button {
-  background-color: #0070f3; /* Button background color */
-  color: #fff; /* White text color */
-  border: none; /* Remove default border */
-  border-radius: 5px; /* Rounded corners */
-  padding: 10px 20px; /* Padding inside the button */
-  cursor: pointer; /* Pointer cursor on hover */
-  width: 100%; /* Full width button */
-  transition: background-color 0.3s; /* Smooth transition */
+  background-color: #0070f3; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  width: 100%; 
+  transition: background-color 0.3s; 
 }
 
 button:hover {
-  background-color: #005bb5; /* Darker color on hover */
+  background-color: #005bb5; 
 }
 .portfolio{
   font-size: 30px;
@@ -378,21 +375,21 @@ body {
   color: brown;
 }
 .start-button {
-  background-color: #4CAF50; /* Green background */
-  color: white;             /* White text */
-  padding: 10px 20px;      /* Padding for spacing */
-  text-align: center;       /* Center text */
-  text-decoration: none;    /* Remove underline */
-  display: inline-block;    /* Make it inline */
-  font-size: 16px;         /* Font size */
-  margin: 4px 2px;        /* Margin for spacing */
-  cursor: pointer;         /* Pointer cursor on hover */
-  border-radius: 5px;     /* Rounded corners */
-  transition: background-color 0.3s; /* Transition effect */
+  background-color: #4CAF50; 
+  color: white;           
+  padding: 10px 20px;      
+  text-align: center;     
+  text-decoration: none;   
+  display: inline-block;    
+  font-size: 16px;         
+  margin: 4px 2px;        
+  cursor: pointer;         
+  border-radius: 5px;     
+  transition: background-color 0.3s; 
 }
 
 .start-button:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #45a049; 
 }
 
 .parentContainer {
@@ -408,7 +405,7 @@ body {
   background:papayawhip;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  width: 300px; /* Adjust the width as necessary */
+  width: 300px; 
   text-align: center;
   position: relative;
   
