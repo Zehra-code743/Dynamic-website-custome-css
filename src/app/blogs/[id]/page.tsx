@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 type Data = {
   id: number;
   title: string;
@@ -66,7 +66,7 @@ const BlogPage = ({ params }: { params: { id: string } }) => {
 
   return (
     <div className="child">
-      <img src={b?.imageUrl} alt="" />
+      <Image src={"b?.imageUrl"} alt="" width={0} height={0} />
       <h2> {b?.title}</h2>
       <p>{b?.description}</p>
       <p>{b?.content}</p>

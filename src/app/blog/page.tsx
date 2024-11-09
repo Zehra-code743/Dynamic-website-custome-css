@@ -1,4 +1,4 @@
-import blogs from "@/components/header"; // Make sure this import is correct
+import Image from "next/image";
 import Link from "next/link";
 
 type IData = {
@@ -53,7 +53,7 @@ export default function Blogs() {
       {data.map((idata) => (
         <div key={idata.id} className="childContainer bounce-right">
           <div className="imageContainer bounce-right">
-            <img src={idata.imageUrl} alt={idata.title} className="blogImage" />
+            <Image src={idata.imageUrl} alt={idata.title} width={0} height={0} className="blogImage" />
           </div>
           <h1 className="title">{idata.title}</h1>
           <p className="description">{idata.description}</p>

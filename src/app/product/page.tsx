@@ -5,7 +5,7 @@ const Product = () => {
   return (
     <div className="perfume">
       <h1 className="perfume">Eau de Parfum</h1>
-      <img className="perfume" src="/perfume12.png" alt="Perfume" />
+      <Image src="/perfume12.png" alt="Perfume" width="0" height={0} />
 
       <p className="perfume">
         Experience the essence of elegance with our exclusive Eau de Parfum.
